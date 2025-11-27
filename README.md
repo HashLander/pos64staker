@@ -22,11 +22,9 @@ pip3 install base58 slick-bitcoinrpc
 
 This is intructions are for CASHBYTE blockchain.
 
-git clone https://github.com/StakedChain/pos64staker`](https://github.com/HashLander/pos64staker.git (recommended) 
+git clone https://github.com/HashLander/pos64staker.git 
 
 
-optional  wget https://github.com/HashLander/pos64staker/archive/refs/heads/master.zip
-optional  wget -4 https://github.com/HashLander/pos64staker/archive/refs/heads/master.zip         -> (For force dowloading only using  ipv4)
 
 
 `cd pos64staker`
