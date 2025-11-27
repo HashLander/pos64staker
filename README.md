@@ -56,7 +56,7 @@ Fetch a pubkey from your `list.json` and place it in your start command. For exa
 
 NOTE the CASHBYTE in -blocknotify make sure note the single quotes.
 
-After the daemon has started and is synced simply do `komodo-cli -ac_name=CFEK setgenerate true 0` to begin staking. 
+After the daemon has started and is synced simply do `komodo-cli -ac_name=CASHBYTE setgenerate true 0` to begin staking. 
 
 
 ### How the staker.py works
@@ -109,5 +109,9 @@ Withdraw script is for withdrawing funds from a staking node, without messing up
     Gives balance of utxos remaning that are not locked.  These should be the smallest and newest utxo's in each segid. The least likely to stake.
     
     Then lets you send some coins to an address. 
-    
+
+    Any questions head to discord: https://discord.gg/5AmWXCc8DK 
+
+
+    Anywuestiong
     Unlocks utxos again.
