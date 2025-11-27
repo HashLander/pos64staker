@@ -98,19 +98,21 @@ if segid >= 0 :
     
 ### Withdraw 
 
-Withdraw script is for withdrawing funds from a staking node, without messing up utxo distribution. Works like this:
+Asks for percentage you want locked (kept). 
 
-    Asks for percentage you want locked (kept). 
-    
-    It then counts how many utxo per segid. 
-    
-    Locks the largest and oldest utxos in each segid up to the % you asked.
-    
-    Gives balance of utxos remaning that are not locked.  These should be the smallest and newest utxo's in each segid. The least likely to stake.
-    
-    Then lets you send some coins to an address. 
+It then counts how many utxo per segid. 
 
-    Any questions head to discord: https://discord.gg/5AmWXCc8DK 
+Locks the largest and oldest utxos in each segid up to the % you asked.
+
+Gives balance of utxos remaning that are not locked.  These should be the smallest and newest utxo's in each segid. The least likely to stake.
+
+Then lets you send some coins to an address. 
+
+Unlocks utxos again.
+
+### questions
+
+https://discord.gg/5AmWXCc8DK
 
 
     Anywuestiong
