@@ -54,7 +54,7 @@ Fetch a pubkey from your `list.json` and place it in your start command. For exa
 
 ./komodod -ac_name=CASHBYTE -ac_supply=2000000  -ac_cbmaturity=20 -ac_cc=2 -ac_blocktime=60 -ac_reward=2000000000 -ac_halving=2100000  -ac_end=70000000 -ac_staked=55  -pubkey=02e27b4766aPUBKEY_FROM_THE_LISTJSON_HERE_ed420377e22b9bb90f00b88f '-blocknotify=/home/pos64staker/staker.py %s CASHBYTE'
 
-NOTE the CFEK in -blocknotify make sure you change this to the correct chain name you are using also note the single quotes.
+NOTE the CASHBYTE in -blocknotify make sure note the single quotes.
 
 After the daemon has started and is synced simply do `komodo-cli -ac_name=CFEK setgenerate true 0` to begin staking. 
 
