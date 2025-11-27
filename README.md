@@ -20,15 +20,18 @@ pip3 install base58 slick-bitcoinrpc
 
 ## How to Use
 
-The following examples will use CFEK. Replace CFEK with the chain you are using.
+This is intructions are for CASHBYTE blockchain.
 
-`git clone https://github.com/StakedChain/pos64staker`
+git clone https://github.com/StakedChain/pos64staker`](https://github.com/HashLander/pos64staker.git (recommended) 
+or wget https://github.com/HashLander/pos64staker/archive/refs/heads/master.zip
+or wget 04 https://github.com/HashLander/pos64staker/archive/refs/heads/master.zip         -> (For forcing dowloading only with ipv4)
+
 
 `cd pos64staker`
 
 `./genaddresses.py`
 ```shell
-Please specify chain:CFEK
+Please specify chain:CASHBYTE
 ```
 
 This will create a `list.json` file in the current directory. **THIS FILE CONTAINS PRIVATE KEYS. KEEP IT SAFE.**
@@ -38,7 +41,7 @@ Copy this file to the directory `komodod` is located.
 
 `./sendmany64.py`
 ```shell
-Please specify chain:CFEK
+Please specify chain:CASHBYTE
 Balance: 1000000.77
 Please specify the size of UTXOs:10
 Please specify the amount of UTXOs to send to each segid:10
@@ -49,7 +52,7 @@ You now need to start the daemon with -blocknotify and -pubkey set.
 
 Fetch a pubkey from your `list.json` and place it in your start command. For example:
 
-`./komodod -ac_name=CFEK -ac_supply=1000000 -ac_reward=10000000000 -ac_cc=2 -ac_staked=50 -addnode=195.201.20.230 -addnode=195.201.137.5  -pubkey=0367e6b61a60f9fe6748c27f40d0afe1681ec2cc125be51d47dad35955fab3ba3b '-blocknotify=/home/<USER>/pos64staker/staker.py %s CFEK'`
+./komodod -ac_name=CASHBYTE -ac_supply=2000000  -ac_cbmaturity=20 -ac_cc=2 -ac_blocktime=60 -ac_reward=2000000000 -ac_halving=2100000  -ac_end=70000000 -ac_staked=55  -pubkey=02e27b4766aPUBKEY_FROM_THE_LISTJSON_HERE_ed420377e22b9bb90f00b88f '-blocknotify=/home/pos64staker/staker.py %s CASHBYTE'
 
 NOTE the CFEK in -blocknotify make sure you change this to the correct chain name you are using also note the single quotes.
 
