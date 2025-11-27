@@ -96,7 +96,7 @@ if segid >= 0 :
     if yes, use alrights code to combine this coinbase utxo with the utxo that staked it.
     
     
-### Withdraw 
+#### Withdraw 
 
 Asks for percentage you want locked (kept). 
 
@@ -110,7 +110,7 @@ Then lets you send some coins to an address.
 
 Unlocks utxos again.
 
-### questions
+##### Help and Support
 
 https://discord.gg/5AmWXCc8DK
 
