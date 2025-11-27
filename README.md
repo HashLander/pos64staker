@@ -97,7 +97,7 @@ if segid >= 0 :
     
     
 #### Withdraw 
-
+``
 Asks for percentage you want locked (kept). 
 
 It then counts how many utxo per segid. 
@@ -109,11 +109,11 @@ Gives balance of utxos remaning that are not locked.  These should be the smalle
 Then lets you send some coins to an address. 
 
 Unlocks utxos again.
-
+```
 ##### Help and Support
-
+```
 https://discord.gg/5AmWXCc8DK
-
+```
 
     Anywuestiong
     Unlocks utxos again.
